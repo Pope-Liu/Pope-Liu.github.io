@@ -1,0 +1,183 @@
+html {
+
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+li {
+    margin: 6px;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    /*width: 400px;*/
+}
+
+.example{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.snake{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.transform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.btnArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.begin{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    background-color: #6BAFEA;
+    text-align: center;
+    line-height: 40px;
+}
+
+.pause{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #6BAFEA;
+    text-align: center;
+    line-height: 40px;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px;
+    width: 480px;
+    height: 480px;
+    background-color: #bbada0;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 480px;
+    height: 60px;
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+}
+
+.cell {
+    background-color: #ccc0b3;
+    border-radius: 10px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+._2 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #eee3da;
+}
+
+._4 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #ede0c8;
+}
+
+._8 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #f2b179;
+}
+
+._16 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #f59563;
+}
+
+._32 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #f67c5f;
+}
+
+._64 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #f65e3b;
+}
+
+._128 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #edcf72;
+}
+
+._256 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #edcc61;
+}
+
+._512 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #9c0;
+}
+
+._1024 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #33b5e5;
+}
+
+._2048 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #09c;
+}
