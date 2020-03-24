@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="/css/2048.css">
+		<title>2048</title>
+	</head>
+	<body>
+		<div class="instructions">
+			<h1>游戏说明</h1>
+			<ul>
+				<li>点击开始游戏按钮进行游戏。</li>
+				<li>使用键盘的 ↑ ↓ ← → 来控制贪吃蛇移动。</li>
+				<li>贪吃蛇的嘴不够大，因此只能吞食比蛇头小的果实。</li>
+				<li>使用alt + ↑ ↓ ← → 来控制贪吃蛇的整体移动（每次移动一格）。</li>
+				<li>对于比蛇头大的果实，贪吃蛇可以通过整体移动来吞食。</li>
+			</ul>
+			<div class="example">
+				<span style="font-size: 25px; font-weight: bold; margin-right: 20px">eg:</span>
+				<div class="snake">
+					<div class="cell _2">2</div>
+					<div class="cell _8">8</div>
+					<div class="cell _16">16</div>
+				</div>
+				<div class="cell _4">4</div>
+				<div class="transform">
+					<span>alt + →</span>
+					<span>——————></span>
+				</div>
+				<div class="snake">
+					<div class="cell _2">2</div>
+					<div class="cell _4">4</div>
+					<div class="cell _8">8</div>
+					<div class="cell _16">16</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="btnArea">
+			<div id="begin" class="begin" onmouseover="beginSelected()" onmouseleave="beginUnselected()" onclick="begin()">开始游戏</div>
+			<div id="pause" class="pause" onmouseover="pauseSelected()" onmouseleave="pauseUnselected()" onclick="pause()">暂停一下</div>
+		</div>
+		<div class="game">
+			<h2 id="score">Score:&nbsp;&nbsp;0</h2>
+			<div id="panel" class="panel ">
+		</div>
+
+		</div>
+	</body>
+	<script rel="script" src="/js/2048.js"></script>
+</html>
