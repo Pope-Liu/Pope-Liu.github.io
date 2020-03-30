@@ -106,6 +106,7 @@ window.onkeydown = function (event) {
 			default:
 				break;
 		}
+		event.preventDefault();
 	} else {
 		switch (keyCode) {
 			case 37:
